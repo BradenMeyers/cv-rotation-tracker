@@ -1,0 +1,49 @@
+configs:
+  - run_number: 1
+    estimate_rpm: 58
+    lower_orange: [10, 150, 150]
+    upper_orange: [20, 255, 255]
+    crop_x: (780, 1180)
+    crop_y: (515, 910)
+    center: [207, 186]
+    erode_iter: 1
+    fps: 240.12
+    video_path: "FinalData/Videos/1.0_58.mov"
+    frames_per_rotaiton: 280
+  
+  - run_number: 2
+    estimate_rpm: 1600
+    lower_orange: [15, 90, 90]
+    upper_orange: [30, 255, 255]
+    crop_x: 120
+    crop_y: 220
+    center: [300, 230]
+    erode_iter: 3
+    video_path: "videos/run2.mp4"
+  
+  - run_number: 3
+    estimate_rpm: 1400
+    lower_orange: [12, 95, 95]
+    upper_orange: [28, 250, 250]
+    crop_x: 110
+    crop_y: 210
+    center: [310, 235]
+    erode_iter: 2
+    video_path: "videos/run3.mp4"
+
+
+
+
+
+  # - run_number: 0
+  #   estimate_rpm: 0
+  #   lower_orange: [12, 95, 95]
+  #   upper_orange: [28, 250, 250]
+  #   crop_x: (0, 0)
+  #   crop_y: (0, 0)
+  #   center: [310, 235]
+  #   erode_iter: 1
+  #   video_path: "videos/run3.mp4"
+
+# Add more runs by following the same format
+
