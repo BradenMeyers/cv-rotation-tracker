@@ -1,38 +1,79 @@
 configs:
   - run_number: 1
     estimate_rpm: 58
-    lower_orange: [10, 150, 150]
+    lower_orange: [10, 115, 150]
     upper_orange: [20, 255, 255]
-    crop_x: (780, 1180)
-    crop_y: (515, 910)
-    center: [207, 186]
     erode_iter: 1
     fps: 240.12
     video_path: "FinalData/Videos/1.0_58.mov"
-    frames_per_rotaiton: 280
+    frames_per_rotaiton: 267
   
   - run_number: 2
-    estimate_rpm: 1600
-    lower_orange: [15, 90, 90]
-    upper_orange: [30, 255, 255]
-    crop_x: 120
-    crop_y: 220
-    center: [300, 230]
-    erode_iter: 3
-    video_path: "videos/run2.mp4"
+    estimate_rpm: 460
+    lower_orange: [10, 115, 150]
+    upper_orange: [20, 255, 255]
+    erode_iter: 1
+    crop_x: [750, 1200]
+    crop_y: [500, 910]
+    # center: [238, 202]
+    center: [235.935, 204.8643]
+    radius: 211
+    fps: 240.11
+    video_path: "FinalData/Videos/2.0_460.mov"
+    frames_per_rotaiton: 37
   
   - run_number: 3
-    estimate_rpm: 1400
-    lower_orange: [12, 95, 95]
-    upper_orange: [28, 250, 250]
-    crop_x: 110
-    crop_y: 210
-    center: [310, 235]
-    erode_iter: 2
-    video_path: "videos/run3.mp4"
-
-
-
+    estimate_rpm: 51
+    lower_orange: [10, 115, 150]
+    upper_orange: [20, 255, 255]
+    erode_iter: 1
+    crop_x: [750, 1200]
+    crop_y: [500, 910]
+    center: [238, 202]
+    radius: 211
+    fps: 240.12
+    video_path: "FinalData/Videos/1.1_51.mov"
+    frames_per_rotaiton: 298
+  
+  - run_number: 4
+    estimate_rpm: 55
+    lower_orange: [10, 115, 150]
+    upper_orange: [20, 255, 255]
+    erode_iter: 1
+    crop_x: [750, 1200]
+    crop_y: [500, 910]
+    center: [238, 202]
+    radius: 205
+    fps: 240.12
+    video_path: "FinalData/Videos/1.2_55.mov"
+    frames_per_rotaiton: 298
+  
+  - run_number: 5
+    estimate_rpm: 444
+    lower_orange: [10, 115, 150]
+    upper_orange: [20, 255, 255]
+    erode_iter: 1
+    crop_x: [750, 1200]
+    crop_y: [500, 910]
+    center: [238, 202]
+    radius: 211
+    fps: 240.12
+    video_path: "FinalData/Videos/2.1_444.mov"
+    frames_per_rotaiton: 37
+  
+  - run_number: 6
+    estimate_rpm: 446
+    lower_orange: [10, 115, 150]
+    upper_orange: [20, 255, 255]
+    erode_iter: 1
+    crop_x: [750, 1200]
+    crop_y: [500, 910]
+    center: [238, 202]
+    radius: 211
+    fps: 240.11
+    video_path: "FinalData/Videos/2.2_446.mov"
+    frames_per_rotaiton: 37
+  
 
 
   # - run_number: 0
