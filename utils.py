@@ -31,6 +31,6 @@ def crop_circle(frame):
     # Create a circular mask
     height, width, _ = frame.shape
     mask = np.zeros((height, width), dtype=np.uint8)
-    cv2.circle(mask, center, radius, 255, -1)
+    cv2.circle(mask, pixel_center, radius, 255, -1)
 
     return cv2.bitwise_and(frame, frame, mask=mask)
