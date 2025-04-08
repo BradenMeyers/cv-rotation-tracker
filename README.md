@@ -1,4 +1,4 @@
-# Calculating Rotation Per Minute Using OPENCV - BYU ME362 
+# Calculating RPM Using OPENCV - BYU ME362 
 
 ## Project Overview
 This was my final project for ME 362 at BYU. OpenCV python code was written to track a orange peice of tape on a vertical axis wind turbine with very high precision (error of les than 0.03 rpm at 450 RPM). This code is a good introduction to the utility of OPENCV and can be applied in many different ways
